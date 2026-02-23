@@ -8,9 +8,13 @@ This project creates an interactive object that responds to ambient light levels
 - **Sleep Mode:** If the environment remains dark (sensor value > 700) for more than 3 seconds, the object stops moving and enters a "sleep" state.
 - **Auto-Wake:** As soon as light is detected again, the object wakes up and resumes movement.
 
-## Video Demo
+## Project Assets
 
-[Insert your video link here]
+![Project Photo](assets/project_photo.jpg)
+
+### Video Demo
+
+[Watch the project video](assets/project_video.mov)
 
 ## Hardware List
 
