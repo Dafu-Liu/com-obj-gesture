@@ -1,12 +1,13 @@
-# Servo-Controlled Object Reacting to Light
+# Night Owl: Servo-Controlled Blue Boot
 
-This project creates an interactive object that responds to ambient light levels using a servo motor and a Light Dependent Resistor (LDR). The object mimics "waking up" in the presence of light and "sleeping" when it stays dark for too long.
+This project features an interactive "Night Owl" gesture using a servo motor and a Light Dependent Resistor (LDR). A **blue boot** is attached to the servo, acting as the owl's foot. The object mimics the behavior of a night owl: energetic and active in the darkness, but slowing down and eventually "sleeping" when exposed to light.
 
 ## Features
 
-- **Light-Responsive Speed:** The servo sweeps back and forth. The brighter the light, the faster it moves.
-- **Sleep Mode:** If the environment remains dark (sensor value > 700) for more than 3 seconds, the object stops moving and enters a "sleep" state.
-- **Auto-Wake:** As soon as light is detected again, the object wakes up and resumes movement.
+- **Night Owl Logic:** The object is most active during the night. The darker it is, the more energetically the blue boot moves.
+- **Light Sensitivity:** As soon as light is introduced, the movement slows down immediately.
+- **Daytime Sleep:** If light is consistently introduced for a period of time, the object stops moving entirely and enters its "sleep" state.
+- **Awakening:** When darkness returns, the blue boot starts moving slowly and gradually gains speed as it gets darker, just like an owl waking up for the night.
 
 ## Project Assets
 
